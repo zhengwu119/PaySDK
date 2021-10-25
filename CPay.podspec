@@ -1,19 +1,22 @@
 Pod::Spec.new do |spec|
-  spec.name         = "PaySDKFramework"
+  spec.name         = "CPay"
   spec.version      = "1.2"
-  spec.summary      = "This is quitely short description of PaySDKFramework."
+  spec.summary      = "This is quitely short description of CPay."
   spec.description  = <<-DESC
                       Please follow my steps to build the framework to your project.
                    DESC
   spec.homepage     = "https://github.com/zhengwu119/PaySDK"
-  spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :text => "MIT License" }
   spec.author       = { "Zhengwu Liu" => "zhengwu119@gmail.com" }
   spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.ios.deployment_target = '10.0'
 
   spec.source       = { :git => "https://github.com/zhengwu119/PaySDK.git", :tag => "#{spec.version}" }
+  # spec.source       = { :http => "http://localhost:8000/CPay.xcframework.zip" }
+  # spec.source_files = 'CPay.xcframework/*'
+
 
   # Published binaries
-  spec.vendored_frameworks = 'PaySDKFramework.xcframework'
+  spec.ios.vendored_frameworks = 'CPay.xcframework'
 
 end
