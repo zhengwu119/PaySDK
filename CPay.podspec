@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "CPay"
-  spec.version      = "1.2"
+  spec.version      = "1.3"
   spec.summary      = "This is quitely short description of CPay."
   spec.description  = <<-DESC
                       Please follow my steps to build the framework to your project.
