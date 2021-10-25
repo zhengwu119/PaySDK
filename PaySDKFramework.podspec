@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "PaySDKFramework"
-  spec.version      = "1.0"
+  spec.version      = "1.2"
   spec.summary      = "This is quitely short description of PaySDKFramework."
   spec.description  = <<-DESC
                       Please follow my steps to build the framework to your project.
@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/zhengwu119/PaySDK.git", :tag => "#{spec.version}" }
 
   # Published binaries
-  spec.vendored_frameworks = 'CPay.xcframework'
+  spec.vendored_frameworks = 'PaySDKFramework.xcframework'
 
 end
