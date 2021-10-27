@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-PaySDKExample/Pods-PaySDKExample-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/CPay/CPay.framework/CPay

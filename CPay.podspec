@@ -12,9 +12,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '10.0'
 
   spec.source       = { :git => "https://github.com/zhengwu119/PaySDK.git", :tag => "#{spec.version}" }
-  # spec.source       = { :http => "http://localhost:8000/CPay.xcframework.zip" }
-  # spec.source_files = 'CPay.xcframework/*'
-
 
   # Published binaries
   spec.ios.vendored_frameworks = 'CPay.xcframework'

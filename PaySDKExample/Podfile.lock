@@ -1,0 +1,16 @@
+PODS:
+  - CPay (1.3)
+
+DEPENDENCIES:
+  - CPay
+
+SPEC REPOS:
+  trunk:
+    - CPay
+
+SPEC CHECKSUMS:
+  CPay: d06c861331fcbb1d2a2b0af787bc9d242778bbb1
+
+PODFILE CHECKSUM: 7f6e683207bc4935c64e8af66c975adf29e2ecca
+
+COCOAPODS: 1.11.2
